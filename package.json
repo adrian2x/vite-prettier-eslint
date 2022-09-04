@@ -10,6 +10,13 @@
     "format": "prettier-eslint \"src/**/*.{ts,tsx}\" --write"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@mantine/core": "^5.2.5",
+    "@mantine/dates": "^5.2.5",
+    "@mantine/form": "^5.2.5",
+    "@mantine/hooks": "^5.2.5",
+    "@mantine/notifications": "^5.2.5",
+    "dayjs": "^1.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
