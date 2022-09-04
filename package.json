@@ -10,8 +10,11 @@
     "format": "prettier-eslint \"src/**/*.{ts,tsx}\" --write"
   },
   "dependencies": {
+    "baseui": "^12.1.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styletron-engine-atomic": "^1.5.0",
+    "styletron-react": "^6.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
@@ -22,6 +25,7 @@
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-baseui": "^12.1.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.5",
     "prettier-eslint-cli": "^7.1.0",

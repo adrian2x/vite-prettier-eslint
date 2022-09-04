@@ -6,15 +6,21 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
-    project: './tsconfig.json',
+    project: './tsconfig.json'
   },
-  plugins: [
-    'react'
-  ],
+  plugins: ['react', 'baseui'],
   rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/space-before-function-paren': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off'
+    'baseui/deprecated-component-api': 'warn',
+    'baseui/deprecated-theme-api': 'warn',
+    'baseui/no-deep-imports': 'warn',
+    'sort-keys': ['error', 'asc', {
+      caseSensitive: true,
+      minKeys: 2,
+      natural: false
+    }]
   }
 }
